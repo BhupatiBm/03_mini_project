@@ -6,7 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Contact"/>
 		<list key="findhistory">
+			<item value="contact"/>
+			<item value="user"/>
 			<item value="package com.bit.service;"/>
 		</list>
 		<list key="replacehistory">

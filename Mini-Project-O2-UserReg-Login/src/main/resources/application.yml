@@ -1,0 +1,40 @@
+server:
+  port: 9808
+  servlet:
+    context-path: /userManagement
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+  mail:
+    host: smtp.gmail.com
+    password: coloneli5
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+          timeout: 5000
+          writetimeout: 5000
+    username: oany71145@gmail.com
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+      
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: INFO
+    com:
+      bit:
+        controller: DEBUG
+        service: ERROR

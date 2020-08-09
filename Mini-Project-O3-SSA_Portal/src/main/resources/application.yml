@@ -1,0 +1,10 @@
+server:
+  port: 6075
+  servlet:
+    context-path: /SSA
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: manager
+    url:  jdbc:oracle:thin:@localhost:1521/xe  
+    username: system

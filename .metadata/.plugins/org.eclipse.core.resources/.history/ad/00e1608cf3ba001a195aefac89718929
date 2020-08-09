@@ -1,5 +1,0 @@
-package com.bit.service;
-
-public class ContactServiceImpl implements ContactService {
-
-}

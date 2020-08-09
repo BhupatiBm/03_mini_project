@@ -1,0 +1,15 @@
+
+spring:
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+    url: jdbc:h2:mem:testdb
+server:
+  port: 9898
+  servlet:
+    context-path: /PhoneBook

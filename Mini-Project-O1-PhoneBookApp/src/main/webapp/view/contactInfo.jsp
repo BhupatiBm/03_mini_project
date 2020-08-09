@@ -8,20 +8,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <h1>Save Contact</h1>
-<style type="text/css" >
-      span{ color:red; text-decoration: blink; 
-         
-      }
-  </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
-<script src="/js/form-validation.js"></script>
+
 
 <h3 style="color: green;">${sucmsg}</h3>
 <h3 style="color: red;">${errmsg}</h3>
 
 </head>
 <body>
+<link rel="stylesheet" href="/PhoneBook/css/style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script src="/PhoneBook/js/form-validation.js"></script>
+
+
 
 	<form:form action="savecontact" method="post" modelAttribute="contact" name="form">
 		<table>
@@ -47,6 +46,8 @@
 		<a href="viewAllContact">Get All Contacts</a>
 
 	</form:form>
+	
+	
 </body>
 </html>
 
